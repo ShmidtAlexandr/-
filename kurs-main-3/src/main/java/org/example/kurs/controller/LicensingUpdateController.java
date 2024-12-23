@@ -15,6 +15,9 @@ import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
+//TODO: 1. createLicense - проверку прав доступа сделать при помощи security
+//TODO: 2. processDeviceLicense - лицензия не была здесь активирована, а было продлена
+
 @RestController
 @RequestMapping("/licensing")
 @RequiredArgsConstructor

@@ -10,6 +10,9 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 import java.util.Date;
 
+//TODO: 1. createTicket - Нет реализации цифровой подписи. UUID - не цифровая подпись
+//TODO: 2. Тикет содержит неверную информацию о лицензии (см. Задание 4)
+
 @Getter
 @Setter
 @AllArgsConstructor

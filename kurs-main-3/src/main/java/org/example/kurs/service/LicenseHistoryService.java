@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
+//TODO: 1. Получить историю нельзя?
+
 @Service
 @RequiredArgsConstructor
 public class LicenseHistoryService {

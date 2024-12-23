@@ -13,6 +13,9 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.*;
 
+//TODO: 1. createLicense - проверку прав доступа сделать при помощи security, а не использовать кривую проверку Данилина
+//TODO: 2. assembleLicense - даты первой активации и окончания должны устанавливаться только при первой активации лицензии
+
 @RestController
 @RequestMapping("/licensing")
 @RequiredArgsConstructor

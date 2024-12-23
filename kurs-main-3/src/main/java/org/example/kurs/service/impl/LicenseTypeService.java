@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+//TODO: 1. saveLicenseType - что будет при попытке повторно сохранить существующий тип?
+
 @Service
 public class LicenseTypeService {
 

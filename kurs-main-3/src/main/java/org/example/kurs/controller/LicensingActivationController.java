@@ -13,6 +13,12 @@ import java.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+//TODO: 1. createLicense - проверку прав доступа сделать при помощи security
+//TODO: 2. findOrRegisterDevice - операции с устройствами должен выполнять класс, который напрямую связан с ними
+//TODO: 3. findByMacAddressAndName - почему делаем поиск по имени? Уникального mac-адреса недостаточно?
+//TODO: 4. activateDeviceLicense - что произойдёт при попытке двух потоков одновременно поменять deviceCount?
+//TODO: 5. activateDeviceLicense - при первой активации должен устанавливаться пользователь и дата первой активации
+
 @RestController
 @RequestMapping("/licensing")
 @RequiredArgsConstructor

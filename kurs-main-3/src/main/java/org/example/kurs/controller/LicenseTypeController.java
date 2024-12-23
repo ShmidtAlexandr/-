@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+//TODO: 1. Нет разграничения доступа
+
 @RestController
 @RequestMapping("/api/license-types")
 public class LicenseTypeController {

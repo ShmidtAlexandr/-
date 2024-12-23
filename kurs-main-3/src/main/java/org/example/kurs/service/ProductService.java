@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+//TODO: 1. saveProduct - потенциально создаёте дубликаты продуктов
+
 @Service
 public class ProductService {
 

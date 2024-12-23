@@ -13,6 +13,10 @@ import org.slf4j.LoggerFactory;
 
 import java.util.*;
 
+//TODO: 1. createLicense - проверку прав доступа сделать при помощи security
+//TODO: 2. Из-за ошибки в DeviceLicense findLicenseById возвращает неверный результат, т.к. с одним устройством может быть связано много лицензий
+//TODO: 3. createConfirmationTicket - почему deviceId не входит в подпись?
+
 @RestController
 @RequestMapping("/licensing")
 @RequiredArgsConstructor

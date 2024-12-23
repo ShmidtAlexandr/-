@@ -12,6 +12,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+//TODO: 1. saveDevice - что будет, если у устройство уже есть?
+
 @Service
 public class DeviceService {
 

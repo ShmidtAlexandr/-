@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+//TODO: 1. Нет разграничения доступа
+
 @RestController
 @RequestMapping("/api/devices")
 public class DeviceController {
